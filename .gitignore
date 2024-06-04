@@ -1,0 +1,14 @@
+# Arquivos compilados
+*.class
+
+# Arquivos gerados pela IDE
+.idea/
+
+# Arquivos de compilação e build
+out/
+build/
+bin/
+
+# Arquivos de dependências
+/lib/
+/target/

@@ -1,8 +1,3 @@
-package main.conversor;
-
-import main.modelo.Moedas;
-import main.api.ApiConversor;
-
 import java.io.IOException;
 
 public class ConversorDeMoedas {

@@ -1,7 +1,3 @@
-package main;
-
-import main.conversor.ConversorDeMoedas;
-
 import java.util.Scanner;
 import java.util.function.DoubleFunction;
 

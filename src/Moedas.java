@@ -1,7 +1,3 @@
-package main.modelo;
-
-import main.api.ApiMoedas;
-
 public class Moedas {
     private double pesoArgentino;
     private double boliviano;

@@ -1,7 +1,7 @@
-package java.conversor;
+package main.conversor;
 
-import java.modelo.Moedas;
-import java.api.ApiConversor;
+import main.modelo.Moedas;
+import main.api.ApiConversor;
 
 import java.io.IOException;
 

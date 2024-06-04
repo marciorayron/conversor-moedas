@@ -1,6 +1,6 @@
-package java;
+package main;
 
-import java.conversor.ConversorDeMoedas;
+import main.conversor.ConversorDeMoedas;
 
 import java.util.Scanner;
 import java.util.function.DoubleFunction;

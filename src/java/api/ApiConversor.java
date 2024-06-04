@@ -1,4 +1,4 @@
-package src.main.java.api;
+package java.api;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

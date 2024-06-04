@@ -1,6 +1,6 @@
-package src.main.java.modelo;
+package java.modelo;
 
-import src.main.java.api.ApiMoedas;
+import java.api.ApiMoedas;
 
 public class Moedas {
     private double pesoArgentino;

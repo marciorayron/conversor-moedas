@@ -11,29 +11,44 @@ public class ConversorDeMoedas {
         }
     }
 
-    public double converterRealParaDolar(double valorInput) {
+    public double RealParaDolar(double valorInput) {
         return (moedas.getDolarAmericano() / moedas.getReal()) * valorInput;
-
     }
 
-    public double converterDolarParaReal(double valorInput) {
+    public double DolarParaReal(double valorInput) {
         return valorInput * moedas.getReal();
     }
 
-    public double converterDolarParaPesoArgentino(double valorInput) {
+    public double PesoArgentinoParaDolar(double valorInput) {
         return (moedas.getDolarAmericano() / moedas.getPesoArgentino()) * valorInput;
     }
 
-    public double converterDolarParaPesoChileno(double valorInput) {
+    public double DolarParaPesoArgentino(double valorInput) {
+        return valorInput * moedas.getPesoArgentino();
+    }
+
+    public double PesoChilenoParaDolar(double valorInput) {
         return (moedas.getDolarAmericano() / moedas.getPesoChileno()) * valorInput;
     }
 
-    public double converterDolarParaPesoColombiano(double valorInput) {
+    public double DolarParaPesoChileno(double valorInput) {
+        return valorInput * moedas.getPesoChileno();
+    }
+
+    public double PesoColombianoParaDolar(double valorInput) {
         return (moedas.getDolarAmericano() / moedas.getPesoColombiano()) * valorInput;
     }
 
-    public double converterDolarParaBoliviano(double valorInput) {
+    public double DolarParaPesoColombiano(double valorInput) {
+        return valorInput * moedas.getPesoColombiano();
+    }
+
+    public double BolivianoParaDolar(double valorInput) {
         return (moedas.getDolarAmericano() / moedas.getBoliviano()) * valorInput;
+    }
+
+    public double DolarParaBoliviano(double valorInput) {
+        return valorInput * moedas.getBoliviano();
     }
 
 }

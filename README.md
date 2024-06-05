@@ -21,11 +21,11 @@ Gson - Utilizada para análise JSON.
 conversor-moedas
 |-- gson-2.10.1.jar
 |-- src
-|-- ApiConversor.java
-|-- ApiMoedas.java
-|-- ConversorDeMoedas.java
-|-- Moedas.java
-|-- Principal.java
+    |-- ApiConversor.java
+    |-- ApiMoedas.java
+    |-- ConversorDeMoedas.java
+    |-- Moedas.java
+    |-- Principal.java
 ```
 
 ## Como usar

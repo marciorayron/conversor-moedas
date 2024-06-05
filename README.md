@@ -16,6 +16,18 @@ Este programa foi desenvolvido como parte do desafio da Alura, dentro do program
 ### Dependências
 Gson - Utilizada para análise JSON. 
 
+### Estrutura do Projeto: 
+```
+conversor-moedas
+|-- gson-2.10.1.jar
+|-- src
+|-- ApiConversor.java
+|-- ApiMoedas.java
+|-- ConversorDeMoedas.java
+|-- Moedas.java
+|-- Principal.java
+```
+
 ## Como usar
  ### Configuração do ambiente:
 
@@ -23,20 +35,43 @@ Gson - Utilizada para análise JSON.
  - Clone este repositório em seu computador.
 
 
- ### Compilação do código:
+### Compilação do código:
  - No terminal, navegue até o diretório onde você clonou o repositório.
  - Compile os arquivos .java utilizando o comando javac, incluindo o arquivo gson-2.8.8.jar necessário para utilizar a biblioteca Gson para análise JSON. 
-```bash
-
-javac -cp ".:../../resources/gson-2.8.8.jar" *.java
+***
+### Nota: 
+Certifique-se de usar o comando certo no seu sistema Operacional pois o separador de classpath é diferente 
+```
+ubunto : | windows ;
 ```
 
-Certifique-se de ter o arquivo gson-2.8.8.jar na raiz do projeto. Este arquivo é necessário para utilizar a biblioteca Gson para análise JSON.
+***
+### Ubunto:
+```bash
 
+javac -cp ".:../gson-2.10.1.jar" *.java
 
- ### Execução do programa:
+```
  - Após a compilação bem-sucedida, execute o programa principal com o seguinte comando:
 ```bash
-java -cp ".:../../resources/gson-2.8.8.jar" Principal
+java -cp ".:../gson-2.10.1.jar" Principal
+
+```
+___
+
+
+### Windows:
+Aperte o botão Shift + botão direito do mouse e clique em: "Abrir janela do powershell aqui"
+```bash
+
+javac -cp ".;../gson-2.10.1.jar" *.java
+
+
+```
+- Após a compilação bem-sucedida, execute o programa principal com o seguinte comando:
+```bash
+java -cp ".;../gson-2.10.1.jar" Principal
+
+
 ```
 Siga as instruções exibidas no terminal para realizar as conversões desejadas.

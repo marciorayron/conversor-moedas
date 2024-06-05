@@ -42,7 +42,7 @@ conversor-moedas
 ***
 ### Nota: 
 
-Certifique-se de usar o comando certo no seu sistema operacional pois o separador de classpath é diferente 
+Certifique-se de usar o comando certo no seu sistema operacional pois o separador de classpath é diferente. 
 No windows há um pequeno bug com os caracters especiais (em desenvolvimento para melhorar a interface)
 
 ```

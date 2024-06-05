@@ -41,7 +41,10 @@ conversor-moedas
  - Compile os arquivos .java com o código logo abaixo utilizando o comando javac, incluindo o arquivo gson-2.8.8.jar necessário para utilizar a biblioteca Gson para análise JSON. 
 ***
 ### Nota: 
+
 Certifique-se de usar o comando certo no seu sistema operacional pois o separador de classpath é diferente 
+No windows há um pequeno bug com os caracters especiais (em desenvolvimento para melhorar a interface)
+
 ```
 ubunto : | windows ;
 ```

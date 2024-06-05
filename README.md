@@ -31,16 +31,17 @@ conversor-moedas
 ## Como usar
  ### Configuração do ambiente:
 
- - Certifique-se de ter o JDK (Java Development Kit) instalado em seu sistema. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle ou de outras fontes confiáveis.
+ - Certifique-se de ter o JDK 17 (Java Development Kit) instalado em seu sistema. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle ou de outras fontes confiáveis.
  - Clone este repositório em seu computador.
 
 
 ### Compilação do código:
- - No terminal, navegue até o diretório onde você clonou o repositório.
- - Compile os arquivos .java utilizando o comando javac, incluindo o arquivo gson-2.8.8.jar necessário para utilizar a biblioteca Gson para análise JSON. 
+ - No terminal, navegue até o diretório onde você clonou o repositório
+ - vá para o diretório conversor-moedas/src
+ - Compile os arquivos .java com o código logo abaixo utilizando o comando javac, incluindo o arquivo gson-2.8.8.jar necessário para utilizar a biblioteca Gson para análise JSON. 
 ***
 ### Nota: 
-Certifique-se de usar o comando certo no seu sistema Operacional pois o separador de classpath é diferente 
+Certifique-se de usar o comando certo no seu sistema operacional pois o separador de classpath é diferente 
 ```
 ubunto : | windows ;
 ```
